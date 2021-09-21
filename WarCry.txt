@@ -1,0 +1,11 @@
+## APIVersion: 100035
+## Title:  |c8B0000WarCry|r 
+## Description: WarCry Addon
+## Author: m00nyONE
+## Version: 0.2.0
+## AddOnVersion: 2
+## SavedVariables: WarCryVars
+
+Menu.lua
+WarCry.lua
+bindings.xml
