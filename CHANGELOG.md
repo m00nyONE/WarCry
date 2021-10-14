@@ -1,3 +1,7 @@
+# 1.0.0
+ - moving code to LibWarCry Library
+ - adding LibWaCry as dependency
+
 # 0.3.1
  - hotfixing bugs & more debugging
 

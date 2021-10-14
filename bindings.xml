@@ -2,10 +2,10 @@
     <Layer name="SI_KEYBINDINGS_LAYER_GENERAL">
         <Category name="|c8B0000WarCry|r">
             <Action name="WARCRY_AHU_PLAY">
-                <Down>WarCry.PlayWarCry("ahu")</Down>
+                <Down>LibWarCry:PlayWarCry("ahu")</Down>
             </Action>
             <Action name="WARCRY_ROAR_PLAY">
-                <Down>WarCry.PlayWarCry("roar")</Down>
+                <Down>LibWarCry:PlayWarCry("roar")</Down>
             </Action>
         </Category>
     </Layer>
