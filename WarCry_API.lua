@@ -20,6 +20,8 @@ function WarCry:CreateWarCry(name, ids)
     ---table.insert(WarCry.List, name, ids)
     WarCry.List[name] = {}
     WarCry.List[name].collectibleIDs = ids
+
+    d("|c8B0000WarCry:|r " .. name .. " has been created")
 end
 
 function WarCry.PlayWarCry(name)
@@ -31,8 +33,12 @@ function WarCry.PlayWarCry(name)
         for index, value in ipairs(WarCry.List[name].collectibleIDs) do
             if GetCollectibleUnlockStateById(value) == 2 then
                 table.insert(playable, value)
+            else 
+                d("You are missing |H1:collectible:".. value .."|h|h")
             end
         end
+
+        if #playable == 0 then  return end
         --- play random collectible from array
         UseCollectible(playable[ math.random(#playable)])
         return
