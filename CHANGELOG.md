@@ -1,3 +1,6 @@
+# 0.3.1
+ - hotfixing bugs & more debugging
+
 # 0.3.0
  - reworking the whole base - now the listening string is the identifier for the WarCry
  - adding "roar"
