@@ -8,8 +8,8 @@
 ## Title:  |c8B0000WarCry|r 
 ## Description: WarCry Addon
 ## Author: m00nyONE
-## Version: 0.3.0
-## AddOnVersion: 3
+## Version: 0.3.1
+## AddOnVersion: 4
 ## SavedVariables: WarCryVars
 
 Menu.lua

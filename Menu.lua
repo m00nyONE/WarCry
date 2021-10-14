@@ -5,7 +5,7 @@ local panelData = {
     name = "WarCry",
     displayName = "WarCry",
     author = "|cFFC0CBm00ny|r",
-    version = "0.3.0",
+    version = "0.3.1",
     website = "https://www.esoui.com/downloads/fileinfo.php?id=3191",
     slashCommand = "/wcsettings",	--(optional) will register a keybind to open to this panel
     registerForRefresh = true,	--boolean (optional) (will refresh all options controls when a setting is changed and when the panel is shown)
