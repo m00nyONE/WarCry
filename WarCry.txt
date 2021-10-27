@@ -8,8 +8,8 @@
 ## Title:  |c8B0000WarCry|r 
 ## Description: WarCry Addon
 ## Author: m00nyONE
-## Version: 1.0.0
-## AddOnVersion:  5
+## Version: 1.0.1
+## AddOnVersion: 6
 ## DependsOn: LibWarCry
 
 WarCry.lua

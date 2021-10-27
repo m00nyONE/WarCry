@@ -1,3 +1,6 @@
+# 1.0.1
+ - api bump & better documentation in README.md
+
 # 1.0.0
  - moving code to LibWarCry Library
  - adding LibWaCry as dependency
