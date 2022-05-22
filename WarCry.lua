@@ -7,13 +7,11 @@ ZO_CreateStringId("SI_BINDING_NAME_WARCRY_ROAR_PLAY", "Play ROAR Warcry")
 
 function WarCry.OnAddOnLoaded(event, addonName)
     if addonName == WarCry.name then
-        local ahuListenString = "ahu"
-        local ahuCollectibleIDs = {353}
-        local roarListenString = "roar"
-        local roarCollectibleIDs = {9432, 9590}
-    
-        LibWarCry:CreateWarCry(ahuListenString, ahuCollectibleIDs)
-        LibWarCry:CreateWarCry(roarListenString, roarCollectibleIDs)
+        EVENT_MANAGER:UnregisterForEvent(WarCry.name, EVENT_ADD_ON_LOADED)
+
+        for name, IDs in pairs(WarCry.List) do
+            LibWarCry:CreateWarCry(name, IDs)
+        end
     end
 end
 

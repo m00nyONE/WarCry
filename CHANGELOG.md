@@ -1,3 +1,16 @@
+# 1.1.0
+ - add some new emotes
+
+# 1.0.4
+ - fixed that i missed the unregisterforevent after addon is loaded
+
+# 1.0.3
+ - adding some user requested warcrys ( cherry, enlight me, army, firebreath)
+
+# 1.0.2
+ - api bump
+ - fix title being off by one character
+
 # 1.0.1
  - api bump & better documentation in README.md
 
