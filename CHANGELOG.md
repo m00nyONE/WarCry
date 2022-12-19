@@ -1,4 +1,7 @@
 # 1.1.0
+ - api bump
+
+# 1.1.0
  - add some new emotes
 
 # 1.0.4

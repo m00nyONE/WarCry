@@ -1,6 +1,5 @@
 WarCry = WarCry or {}
 WarCry.name = "WarCry"
-WarCry.credits = "@m00nyONE"
 
 ZO_CreateStringId("SI_BINDING_NAME_WARCRY_AHU_PLAY", "Play AHU Warcry")
 ZO_CreateStringId("SI_BINDING_NAME_WARCRY_ROAR_PLAY", "Play ROAR Warcry")
