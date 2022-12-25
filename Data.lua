@@ -33,8 +33,13 @@ WarCry.List = {
 
     ["ahu"] = {353},
     ["roar"] = {9432, 9590},
-    ["cherry"] = {1108}, --user request
-    ["enlight me"] = {336}, --user request
-    ["army"] = {350}, --user request
-    ["firebreath"] = {600} --user request
+    ["bathtime"] = {753}, -- equips everyone with the nord bath costume
+
+    -- user requests
+    ["cherry"] = {1108},
+    ["enlight me"] = {336},
+    ["army"] = {350},
+    ["firebreath"] = {600},
+    ["unchained animals"] = {5242},
+    ["bubbletime"] = {10248}
 }
